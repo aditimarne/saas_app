@@ -143,8 +143,9 @@ body {
     @apply flex gap-4 justify-between items-start w-full max-lg:flex-col-reverse max-lg:items-center;
   }
   .companions-grid {
-    @apply flex flex-wrap gap-4 w-full max-md:justify-center;
+  @apply grid gap-4 w-full grid-cols-3 max-xl:grid-cols-2 max-md:grid-cols-1;
   }
+
   .companion-card {
     @apply flex flex-col rounded-4xl border border-black px-4 py-4 gap-5 w-full min-lg:max-w-[410px] justify-between;
   }
