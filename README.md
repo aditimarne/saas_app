@@ -1,3 +1,84 @@
+🤖 ChatSphere — AI Teaching SaaS Platform
+
+ChatSphere is a real-time AI-powered teaching platform where users can create and interact with AI companions for personalized learning sessions using voice and text.
+
+🌐 Live Demo:
+👉 [saasapp-rosy.vercel.app](https://saasapp-rosy.vercel.app/)
+
+💻 GitHub Repository:
+👉 https://github.com/aditimarne/saas_app
+
+
+✨ Features
+
+●  Authentication & User Management (Clerk)
+●  AI Companions with customizable subjects & styles
+●  Real-time Voice Sessions using VAPI
+●  Session History & Bookmarks
+●  Subscription & Plan-based Limits
+●  Responsive UI with Tailwind CSS
+●  Fast Performance with Next.js App Router
+●  Database & Storage powered by Supabase
+
+
+🛠️ Tech Stack
+
+● Frontend: Next.js (App Router), TypeScript
+● Styling: Tailwind CSS
+● Auth: Clerk
+● Backend / DB: Supabase
+● Voice AI: VAPI
+● Deployment: Vercel
+
+
+🚀 Getting Started (Local Setup)
+
+# Clone the repo
+git clone https://github.com/aditimarne/saas_app.git
+
+# Go to project folder
+cd saas_app
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+Visit:
+👉 http://localhost:3000
+
+
+📦 Build for Production
+
+npm run build
+npm start
+
+
+🧠 What I Learned
+
+● Building a full SaaS product end-to-end
+● Authentication & subscription logic
+● Real-time voice AI integration
+● Production deployment & environment management
+● Git, GitHub, and CI/CD workflows
+
+
+👩‍💻 Author:
+Aditi Marne
+Frontend / Full-Stack Developer
+
+💼 LinkedIn: https://www.linkedin.com/in/aditimarne
+🔗 GitHub: https://github.com/aditimarne
+
+
+⭐️ If you like this project
+
+Give it a ⭐️ on GitHub — it helps a lot!
+
+
+## 🔐 Authentication (Clerk Integration Notes)
+
 # Add Clerk to Next.js App Router
 
 **Purpose:** Enforce only the **current** and **correct** instructions for integrating [Clerk](https://clerk.com/) into a Next.js (App Router) application.  
