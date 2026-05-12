@@ -1,11 +1,11 @@
-import { NextResponse } from "next/server";
+import { createSupabaseClient } from "@/lib/supabaseAuth";
 import { auth } from "@clerk/nextjs/server";
-import { createSupabaseClient } from "@/lib/supabase";
 import { revalidatePath } from "next/cache";
+import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
   try {
-    const supabase = createSupabaseClient();
+    const supabase = await createSupabaseClient();
     const { userId } = await auth();
     if (!userId) return NextResponse.json({ error: "Not authenticated" }, { status: 401 });
 
