@@ -1,5 +1,4 @@
 node_modules
 .next
-.env.production
 .git
 README.md
